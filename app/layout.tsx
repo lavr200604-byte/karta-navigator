@@ -12,9 +12,14 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
+
+  verification: {
+    yandex: "3b6d4d070e635d7a",
+  },
+
   title: {
     default: siteConfig.defaultTitle,
-    template: `%s | ${siteConfig.name}`
+    template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.defaultDescription,
   applicationName: siteConfig.name,
@@ -58,25 +63,6 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
-    </html>
-  );
-}import type { Metadata } from "next";
-import "./globals.css";
-
-export const metadata: Metadata = {
-  verification: {
-    yandex: "3b6d4d070e635d7a",
-  },
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="ru">
-      <body>{children}</body>
     </html>
   );
 }
