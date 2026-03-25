@@ -1,0 +1,12 @@
+.article-prose p + p {
+  margin-top: 1rem;
+}
+
+.article-prose h2 {
+  margin-top: 2.5rem;
+}
+
+.article-prose ul + p,
+.article-prose p + ul {
+  margin-top: 1rem;
+}

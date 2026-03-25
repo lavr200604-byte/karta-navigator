@@ -1,0 +1,7 @@
+:root {
+  --font-sans: "Segoe UI Variable", "Aptos", "Trebuchet MS", "Helvetica Neue", sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --gradient-soft: radial-gradient(circle at top left, rgba(38, 194, 173, 0.14), rgba(7, 17, 28, 0) 42%),
+    radial-gradient(circle at bottom right, rgba(69, 110, 176, 0.12), rgba(7, 17, 28, 0) 36%),
+    linear-gradient(180deg, #07111c 0%, #091524 100%);
+}
