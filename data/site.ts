@@ -1,10 +1,10 @@
 import { FAQItem } from "@/lib/types";
 
-const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com").replace(/\/$/, "");
+const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://karta-navigator.pages.dev").replace(/\/$/, "");
 
 export const siteConfig = {
   name: process.env.NEXT_PUBLIC_SITE_NAME ?? "Карта Навигатор",
-  domain: process.env.NEXT_PUBLIC_SITE_DOMAIN ?? "example.com",
+  domain: process.env.NEXT_PUBLIC_SITE_DOMAIN ?? "karta-navigator.pages.dev",
   siteUrl: baseUrl,
   defaultTitle: "Карта Навигатор",
   defaultDescription:
@@ -18,7 +18,7 @@ export const siteConfig = {
   },
   organization: {
     name: process.env.NEXT_PUBLIC_SITE_NAME ?? "Карта Навигатор",
-    email: "hello@example.com",
+   email: "hello@karta-navigator.pages.dev",
     logoPath: "/logo-mark.svg"
   },
   navigation: [
