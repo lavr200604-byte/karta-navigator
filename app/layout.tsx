@@ -13,9 +13,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
 
-  verification: {
-    yandex: "3b6d4d070e635d7a",
-  },
+ verification: {
+  google: "bgXsSq6M9c4hjr3vyznwphFaDcTomAgN1IixmChpCo",
+  yandex: "3b6d4d070e635d7a",
+},
 
   title: {
     default: siteConfig.defaultTitle,
