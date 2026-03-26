@@ -13,11 +13,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
 
- verification: {
-  google: "bgXsSq6M9c4hjr3vyznwphFaDcTomAgN1IixmChpCo",
+verification: {
+  google: "bgXskSq6M9c4hjr3vyznwphFaDcTomAgNlIixmChpCo",
   yandex: "3b6d4d070e635d7a",
 },
-
   title: {
     default: siteConfig.defaultTitle,
     template: `%s | ${siteConfig.name}`,
